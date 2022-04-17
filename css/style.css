@@ -1,0 +1,95 @@
+/*Common Styles*/
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0 !important;
+    text-decoration: none !important;
+  }
+  
+  body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #00008b;
+    font-family: 'Oxygen', sans-serif;
+  }/*End of Common Styles*/
+  
+  /*Header Styles*/
+  .navbar-brand h1 { 
+    font-family: 'Lora', serif;
+    color: black;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left:10px;
+    line-height: .75;
+    
+  }
+  
+  #header-nav{
+    background-color: #ADD8E6;
+    padding:0px;
+  
+  }
+  
+  #collapsable-nav{
+    background-color: #ADD8E6;
+  }
+  
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+      font-size: 1em;
+      margin-right: 5px;
+      
+  }
+  
+  #nav-list {
+    margin-top: 10px;
+  
+  }
+  #nav-list a {
+    color: #951C49;
+    text-align: center;
+    background-color: #ADD8E6;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+    
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+  
+  /*End Header Styles*/
+  
+  /*Main Content Styles*/
+  
+  h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: white;
+  }
+  
+  #main-content #paragraph{
+    border: 1px solid black;
+    background-color: #808080;  
+    height: auto;
+    color: black;
+    position: relative;
+    padding: 12px 12px 12px 12px;
+    margin: 0 0 10px;
+  }
+  
+  
+  #paragraph h3{
+    margin-top: auto;
+    margin-bottom: auto; 
+  }
+  
+  #paragraph h3 a{
+    color: black;
+    text-decoration:none;
+  }
+  
+  /*End Main Content Styles*/
+  
